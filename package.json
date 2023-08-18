@@ -14,12 +14,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashraf-kabir/mern-ecommerce.git"
-  },
+  
   "keywords": [],
-  "author": "Ashraf Kabir",
+  "author": "Arin Soni",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
